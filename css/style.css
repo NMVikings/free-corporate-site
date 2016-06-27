@@ -1,0 +1,369 @@
+.container {
+    padding: 0;
+}
+
+
+
+
+/*Header*/
+
+header {
+    background: url("../images/bg-header.png") center center;
+    color: #fff;
+}
+
+.header-header {
+    margin-top: 2%;
+}
+
+.logo {
+    font-size: 210%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.navbar-collapse {
+    float: right;
+    font-size: 150%;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.header-header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header-info {
+    margin-top: 8%;
+    margin-bottom: 13%;
+}
+
+/*Header*/
+
+
+
+
+.mac-img {
+    background: #f7f8fa;
+}
+
+.mac-img img {
+    width: 100%;
+    height: auto;
+    margin-top: -12%;
+}
+
+
+
+
+
+/*Фичи*/
+
+.features {
+    background: #fff;
+    text-align: center;
+}
+
+.features-item {
+    text-align: center;
+    padding: 12% 4% 8%;
+}
+
+.features-item-1 {
+    background: url("../images/bg-features-1.png") no-repeat center top;
+    background-size: 80%
+}
+
+.features-item-2 {
+    background: url("../images/bg-features-2.png") no-repeat center top;
+    background-size: 80%
+}
+
+.features-item-3 {
+    background: url("../images/bg-features-3.png") no-repeat center top;
+    background-size: 80%
+}
+
+.features-item-4 {
+    background: url("../images/bg-features-4.png") no-repeat center top;
+    background-size: 80%
+}
+
+/*Фичи*/
+
+
+
+/*Слайдер*/
+
+.comment-item {
+    font-size: 130%;
+    line-height: 100%
+}
+
+.comment-teller {
+    position: relative;
+
+    display: inline-block;
+
+    font-size: 120%;
+    line-height: 100%;
+    padding: 20px 0 20px 55px;
+}
+
+.comment-teller:before {
+    content: "";
+
+    position: absolute;
+    left: 13%;
+    top: 5%;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #888;
+}
+
+.carousel-inner .row {
+    padding-bottom: 1.5%;
+}
+
+.comments {
+    background: #f7f8fa;
+    text-align: center;
+}
+
+.comment-item {
+    padding: 10% 15%;
+    background: url("../images/bg-comment.png") no-repeat center center;
+    background-size: 73%;
+}
+
+.comment-teller{
+    padding-bottom: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-indicators li {
+    border: 2px solid #2095bc;
+}
+
+.carousel-indicators .active {
+    background: #2095bc;
+}
+
+.carousel {
+    padding-bottom: 10%;
+}
+
+/*Слайдер*/
+
+
+
+
+.try-it-free {
+    background: #2095bc;
+    text-align: center;
+}
+
+
+
+/*Футер*/
+
+.main-footer {
+    background: #3e434a;
+}
+
+.footer-columns {
+    border-bottom: 1px solid #51565d;
+    margin-bottom: 2%;
+    padding-bottom: 7%;
+}
+
+.footer-columns ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-columns a{
+    text-decoration: none;
+    color: #83888f;
+    font-size: 140%;
+    line-height: 200%;
+}
+
+.footer-columns a:hover {
+    color: #fff;
+}
+
+.footer-input {
+    padding: 2.4% 10%;
+}
+
+.copyright {
+    display: block;
+    color: #a5abb2;
+    margin-bottom: 2%;
+}
+
+/*Футер*/
+
+
+
+/*Кнопки*/
+.btn.header-btn{
+    font-size: 160%;
+    line-height: 100%;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3.5% 7%;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.btn-info {
+    background: #2095bc;
+}
+
+.btn.btn-free-trial{
+    font-size: 160%;
+    line-height: 100%;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1.8% 3.6%;
+    border: 1px solid white;
+    margin-bottom: 5%;
+}
+
+.footer-btn {
+    padding: 2% 4%;
+    background: #50555d;
+    color: #bbc1c8;
+    border: none;
+    font-size: 150%;
+}
+
+.footer-btn:active {
+    border: none;
+}
+
+.btn.btn-link:active {
+    opacity: 0.65;
+}
+/*Кнопки*/
+
+
+
+
+/*Оформление текста*/
+body {
+    font-family: "Helvetica";
+    font-size: 10px;
+    line-height: 100%;
+}
+
+@media (max-width: 767px) {
+    body {font-size: 5px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    body {font-size: 6px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {font-size: 8px;}
+}
+@media (min-width: 1200px) {
+    body {font-size: 10px;}
+}
+
+
+h1 {
+    font-size: 480%;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 300%;
+    line-height: 100%;
+    font-weight: bold;
+    margin: 4% 0;
+}
+
+h3 {
+    font-size: 240%;
+    line-height: 100%;
+    font-weight: bold;
+    margin: 10% 0 5%;
+}
+
+h4 {
+    font-size: 210%;
+    line-height: 100%;
+    color: #868b95;
+    margin-bottom: 3.5%;
+}
+
+h5 {
+    font-size: 170%;
+    line-height: 100%;
+}
+
+p {
+    font-size: 140%;
+    line-height: 180%;
+    color: #868b95;
+}
+
+.header-info p {
+    font-size: 180%;
+    line-height: 150%;
+    margin: 5% 0;
+    color: #fff;
+}
+
+.mac-img p {
+    font-size: 150%;
+    line-height: 160%;
+}
+
+.navbar-collapse a {
+    color: #fff;
+}
+
+.navbar-collapse a:hover {
+    color: #111;
+}
+
+.try-it-free h2 {
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.try-it-free h4{
+    color: #90cade;
+    margin-bottom: 2%;
+}
+
+.footer-columns h6 {
+    color: #d0d6dd;
+    font-size: 160%;
+}
+
+.footer-column-1 h6, .footer-column-2 h6{
+    margin: 15% 0;
+}
+
+.footer-column-3 h6{
+    margin: 9.5% 0;
+}
+
+.footer-column-4 h6 {
+    margin: 7.5% 0;
+}
+/*Оформление текста*/
