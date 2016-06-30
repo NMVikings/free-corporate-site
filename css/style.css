@@ -1,6 +1,5 @@
 .container {
     padding: 0;
-    outline: 1px solid green;
 }
 
 
@@ -139,7 +138,7 @@ header {
 }
 
 .comment {
-    width: 300px;
+    width: 320px;
     margin: 0 auto 20px;
 }
 
@@ -174,6 +173,8 @@ header {
     line-height: 18px;
 
     background: url("../images/bg-comment.png") no-repeat center center;
+    background-clip: border-box;
+    background-size: contain;
 }
 
 .carousel-indicators {
@@ -270,7 +271,9 @@ header {
     margin-bottom: 20px;
 }
 
+.footer-input {
 
+}
 /*Футер*/
 
 
