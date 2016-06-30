@@ -1,5 +1,6 @@
 .container {
     padding: 0;
+    outline: 1px solid green;
 }
 
 
@@ -9,23 +10,22 @@
 
 header {
     background: url("../images/bg-header.png") center center;
+    background-size: cover;
     color: #fff;
 }
 
-.header-header {
-    margin-top: 2%;
-}
-
 .logo {
-    font-size: 210%;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 9px;
     display: inline-block;
+    font-size: 21px;
+    line-height: 36px;
 }
 
 .navbar-collapse {
     float: right;
-    font-size: 150%;
+    font-size: 15px;
+    line-height: 36px;
 }
 
 .icon-bar {
@@ -38,9 +38,19 @@ header {
     display: table;
 }
 
-.header-info {
-    margin-top: 8%;
-    margin-bottom: 13%;
+.header-header {
+    margin-bottom: 15%;
+}
+
+.header-info h1, .header-info p {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.header-buttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15%;
 }
 
 /*Header*/
@@ -52,10 +62,21 @@ header {
     background: #f7f8fa;
 }
 
+.mac-img h3 {
+    margin: 0;
+    padding: 5% 0 10px;
+}
+
 .mac-img img {
-    width: 100%;
-    height: auto;
-    margin-top: -12%;
+    float: right;
+    width: 60%;
+    margin-top: -10%;
+}
+
+.mac-img p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15%;
 }
 
 
@@ -69,30 +90,43 @@ header {
     text-align: center;
 }
 
+.features h2 {
+    margin: 0;
+    padding: 60px 0 30px;
+}
+
+.features h4 {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
 .features-item {
     text-align: center;
-    padding: 12% 4% 8%;
+    min-height: 300px;
+    padding: 140px 5px 50px;
+    max-width: 240px;
+    margin: auto;
+
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .features-item-1 {
     background: url("../images/bg-features-1.png") no-repeat center top;
-    background-size: 80%
 }
 
 .features-item-2 {
     background: url("../images/bg-features-2.png") no-repeat center top;
-    background-size: 80%
 }
 
 .features-item-3 {
     background: url("../images/bg-features-3.png") no-repeat center top;
-    background-size: 80%
 }
 
 .features-item-4 {
     background: url("../images/bg-features-4.png") no-repeat center top;
-    background-size: 80%
 }
+
 
 /*Фичи*/
 
@@ -100,36 +134,29 @@ header {
 
 /*Слайдер*/
 
-.comment-item {
-    font-size: 130%;
-    line-height: 100%
+.comments h2 {
+    padding: 5% 0;
+}
+
+.comment {
+    width: 300px;
+    margin: 0 auto 20px;
 }
 
 .comment-teller {
-    position: relative;
-
-    display: inline-block;
-
-    font-size: 120%;
-    line-height: 100%;
-    padding: 20px 0 20px 55px;
+    text-align: left;
+    padding-left: 10px;
 }
 
-.comment-teller:before {
-    content: "";
-
-    position: absolute;
-    left: 13%;
-    top: 5%;
-
-    height: 40px;
-    width: 40px;
+.comment-teller-img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background: #888;
+    background: #d2dce0;
 }
 
 .carousel-inner .row {
-    padding-bottom: 1.5%;
+    margin-bottom: 6%;
 }
 
 .comments {
@@ -138,27 +165,35 @@ header {
 }
 
 .comment-item {
-    padding: 10% 15%;
+    width: 280px;
+    margin: auto;
+    min-height: 120px;
+    padding: 20px 10px;
+
+    font-size: 13px;
+    line-height: 18px;
+
     background: url("../images/bg-comment.png") no-repeat center center;
-    background-size: 73%;
 }
 
-.comment-teller{
-    padding-bottom: 5%;
-    height: 100%;
-    width: 100%;
+.carousel-indicators {
+    bottom: 0;
 }
 
 .carousel-indicators li {
-    border: 2px solid #2095bc;
+    width: 15px;
+    height: 15px;
+    border: 4px solid #2095bc;
 }
 
 .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
     background: #2095bc;
 }
 
-.carousel {
-    padding-bottom: 10%;
+.teller {
+    color: green;
 }
 
 /*Слайдер*/
@@ -171,6 +206,22 @@ header {
     text-align: center;
 }
 
+.try-it-free h2 {
+    margin: 0;
+    color: #fff;
+    padding: 4% 0 2%;
+}
+
+.try-it-free h4{
+    margin: 0;
+    color: #90cade;
+    padding-bottom: 4%;
+}
+
+.try-it-free a {
+    margin-bottom: 8%;
+}
+
 
 
 /*Футер*/
@@ -181,8 +232,8 @@ header {
 
 .footer-columns {
     border-bottom: 1px solid #51565d;
-    margin-bottom: 2%;
-    padding-bottom: 7%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .footer-columns ul {
@@ -194,23 +245,31 @@ header {
 .footer-columns a{
     text-decoration: none;
     color: #83888f;
-    font-size: 140%;
-    line-height: 200%;
 }
 
 .footer-columns a:hover {
     color: #fff;
 }
 
-.footer-input {
-    padding: 2.4% 10%;
+.footer-column-1 h6 ,
+.footer-column-2 h6 {
+    margin: 30px 0;
+}
+
+.footer-column-3 h6{
+    margin: 30px 0;
+}
+
+.footer-column-4 h6{
+    margin: 30px 0;
 }
 
 .copyright {
     display: block;
     color: #a5abb2;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
+
 
 /*Футер*/
 
@@ -218,35 +277,27 @@ header {
 
 /*Кнопки*/
 .btn.header-btn{
-    font-size: 160%;
-    line-height: 100%;
     color: #fff;
     border-radius: 5px;
-    padding: 3.5% 7%;
-    margin-right: 10px;
     border: 1px solid white;
+    padding: 10px 15px;
 }
 
 .btn-info {
     background: #2095bc;
+    margin-right: 10px;
 }
 
 .btn.btn-free-trial{
-    font-size: 160%;
-    line-height: 100%;
     color: #fff;
     border-radius: 5px;
-    padding: 1.8% 3.6%;
     border: 1px solid white;
-    margin-bottom: 5%;
 }
 
 .footer-btn {
-    padding: 2% 4%;
     background: #50555d;
     color: #bbc1c8;
     border: none;
-    font-size: 150%;
 }
 
 .footer-btn:active {
@@ -265,71 +316,44 @@ header {
 body {
     font-family: "Helvetica";
     font-size: 10px;
-    line-height: 100%;
 }
-
-@media (max-width: 767px) {
-    body {font-size: 5px;}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    body {font-size: 6px;}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-    body {font-size: 8px;}
-}
-@media (min-width: 1200px) {
-    body {font-size: 10px;}
-}
-
 
 h1 {
-    font-size: 480%;
-    line-height: 100%;
-    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
 }
 
 h2 {
-    font-size: 300%;
-    line-height: 100%;
     font-weight: bold;
-    margin: 4% 0;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 h3 {
-    font-size: 240%;
-    line-height: 100%;
+    font-size: 24px;
+    line-height: 30px;
     font-weight: bold;
-    margin: 10% 0 5%;
 }
 
 h4 {
-    font-size: 210%;
-    line-height: 100%;
     color: #868b95;
-    margin-bottom: 3.5%;
+    font-size: 21px;
+    line-height: 24px;
 }
 
 h5 {
-    font-size: 170%;
-    line-height: 100%;
+    font-size: 17px;
+    line-height: 27px;
 }
 
 p {
-    font-size: 140%;
-    line-height: 180%;
     color: #868b95;
 }
 
 .header-info p {
-    font-size: 180%;
-    line-height: 150%;
-    margin: 5% 0;
     color: #fff;
-}
-
-.mac-img p {
-    font-size: 150%;
-    line-height: 160%;
+    font-size: 18px;
+    line-height: 36px;
 }
 
 .navbar-collapse a {
@@ -342,28 +366,21 @@ p {
 
 .try-it-free h2 {
     color: #fff;
-    margin-bottom: 2%;
 }
 
 .try-it-free h4{
     color: #90cade;
-    margin-bottom: 2%;
 }
 
 .footer-columns h6 {
     color: #d0d6dd;
-    font-size: 160%;
+    font-size: 13px;
+    line-height: 13px;
 }
 
-.footer-column-1 h6, .footer-column-2 h6{
-    margin: 15% 0;
+.footer-columns {
+    font-size: 13px;
+    line-height: 27px;
 }
 
-.footer-column-3 h6{
-    margin: 9.5% 0;
-}
-
-.footer-column-4 h6 {
-    margin: 7.5% 0;
-}
 /*Оформление текста*/
